@@ -1,4 +1,3 @@
-# Personal Website
 Welcome! You found my personal GitHub website.
 
 ## Blender
