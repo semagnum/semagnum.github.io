@@ -1,4 +1,4 @@
-Welcome! You found my personal GitHub website.
+Welcome! You found my GitHub website.
 
 ## Blender
 
@@ -13,7 +13,7 @@ Within Blender, I create art as well as develop tools. You can find my art at [s
 
 I love problem solving, tool making, and finding optimal methods. These are demonstrated in some of my other public repositories:
 
-- [prime-tester](https://github.com/semagnum/prime-tester) - two simple existing algorithms for solving prime numbers
-- [boggle-solver](https://github.com/semagnum/boggle-solver) - give a Boggle table and a dictionary, it will return all viable words!
-- [wordle_solver](https://github.com/semagnum/wordle_solver) - a Wordle assistant to help find all remaining possible words based on your guesses and results.
-- [markdown-resume-builder](https://github.com/semagnum/markdown-resume-builder) - based on [markdown-resume](https://github.com/vidluther/markdown-resume), I added functionality to support the notion: one resume, multiple deployments (of resumes, that is). Add tags to build different versions of your resumes to simplify and merge versioning for different resumes.
+- [Prime Tester](https://github.com/semagnum/prime-tester) - two simple existing algorithms for solving prime numbers
+- [Boggle Solver](https://github.com/semagnum/boggle-solver) - give a Boggle table and a dictionary, it will return all viable words!
+- [Wordle Solver](https://github.com/semagnum/wordle_solver) - a Wordle assistant to help find all remaining possible words based on your guesses and results.
+- [markdown-resume-builder](https://github.com/semagnum/markdown-resume-builder) - based on [markdown-resume](https://github.com/vidluther/markdown-resume), I added functionality to support the notion: one codebase, multiple deployments (of resumes, that is). Add tags to build different versions of your resumes, allowing you to have one base CV that can build multiple resumes catered for different fields and specialties!
