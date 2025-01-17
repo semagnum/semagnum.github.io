@@ -21,7 +21,7 @@
     <title>Spencer Magnusson | Links</title>
 </head>
 
-<body id="body">
+<body id="body" onload="loadInteractivity()">
     <section class="profile">
         <img class="profile__image" src="assets/bio.png" alt="Spencer Magnusson" width="100%" fetchpriority="high" />
         <div class="profile__bio">
@@ -30,22 +30,22 @@
         </div>
     </section>
     <section class="socials">
-        <a class="socials__link" href="https://mastodon.art/@smagnusson" target="_blank" rel="nofollow me" aria-label="Mastodon.art">
+        <a class="socials__link" href="https://mastodon.art/@smagnusson" target="_blank" rel="nofollow me" aria-label="Mastodon" title="Mastodon">
             <i class="fa-brands fa-mastodon fa-3x socials__link__icon"></i>
         </a>
-        <a class="socials__link" href="https://instagram.com/spencer.magnusson" target="_blank" rel="nofollow" aria-label="Instagram">
+        <a class="socials__link" href="https://instagram.com/spencer.magnusson" target="_blank" rel="nofollow" aria-label="Instagram" title="Instagram">
             <i class="fa-brands fa-instagram fa-3x socials__link__icon" aria-hidden="true"></i>
         </a>
-        <a class="socials__link" href="https://www.youtube.com/@SpencerMagnusson" target="_blank" rel="nofollow" aria-label="YouTube">
+        <a class="socials__link" href="https://www.youtube.com/@SpencerMagnusson" target="_blank" rel="nofollow" aria-label="YouTube" title="YouTube">
             <i class="fa-brands fa-youtube fa-3x socials__link__icon" aria-hidden="true"></i>
         </a>
-        <a class="socials__link" href="https://linkedin.com/in/spencer-magnusson" target="_blank" rel="nofollow" aria-label="LinkedIn">
+        <a class="socials__link" href="https://linkedin.com/in/spencer-magnusson" target="_blank" rel="nofollow" aria-label="LinkedIn" title="LinkedIn">
             <i class="fa-brands fa-linkedin fa-3x socials__link__icon" aria-hidden="true"></i>
         </a>
-        <a class="socials__link" href="https://github.com/semagnum" target="_blank" rel="nofollow" aria-label="GitHub">
+        <a class="socials__link" href="https://github.com/semagnum" target="_blank" rel="nofollow" aria-label="GitHub" title="GitHub">
             <i class="fa-brands fa-github fa-3x socials__link__icon" aria-hidden="true"></i>
         </a>
-        <a class="socials__link" href="https://www.paypal.com/paypalme/SpencerMagnusson" target="_blank" rel="nofollow" aria-label="PayPal">
+        <a class="socials__link" href="https://www.paypal.com/paypalme/SpencerMagnusson" target="_blank" rel="nofollow" aria-label="PayPal" title="PayPal">
             <i class="fa-brands fa-paypal fa-3x socials__link__icon" aria-hidden="true"></i>
         </a>
 
@@ -54,37 +54,91 @@
     <section class="links">
         <ul>
             <li>
-                <a class="yt-image" href="https://www.youtube.com/playlist?list=PL1lnLe1VSZG6UPqhxjerV0lV51FyTQjtT" target="_blank" rel="nofollow">
-                    <img src="assets/bcon.png"></img>
-                    Watch BCON presentations
+                <img src="assets/bcon.png"></img>
+                <a class="yt-image" href="https://www.youtube.com/playlist?list=PL1lnLe1VSZG6UPqhxjerV0lV51FyTQjtT" target="_blank" rel="nofollow" title="Watch my BCON Presentations">
+                    Watch my BCON talks
                 </a>
+                <div class="caret"></div>
             </li>
-            <li>
-                <a href="https://semagnum.github.io/extensions/" target="_blank" rel="nofollow">
-                    <img src="assets/extensions.png"></img>
-                    Download free extensions
+            <li class="collapsible">
+                <img src="assets/extensions.png"></img>
+                <a href="https://semagnum.github.io/extensions/" target="_blank" rel="nofollow" title="Get free Blender extensions">
+                    Get free extensions
                 </a>
+                <button class="caret fa-solid fa-angle-left fa-2x"></button>
             </li>
-            <li>
-                <a href="https://blendermarket.com/creators/spencer-magnusson?ref=2870" target="_blank" rel="nofollow">
-                    <img src="assets/blendermarketlogo.png"></img>
+            <div class="content">
+                <a href="https://extensions.blender.org/add-ons/lightpainter/" target="_blank" rel="nofollow" aria-label="Light Painter">
+                    Light Painter
+                </a>
+                <a href="https://github.com/semagnum/blint" target="_blank" rel="nofollow" aria-label="BLint">
+                    BLint
+                </a>
+                <a href="https://github.com/semagnum/Material_Color_From_Nodes" target="_blank" rel="nofollow" aria-label="Color from Material">
+                    Color from Material
+                </a>
+                <a href="https://github.com/semagnum/separate_with_instances" target="_blank" rel="nofollow" aria-label="Separate with Instances">
+                    Separate with Instances
+                </a>
+            </div>
+            <li class="collapsible">
+                <img src="assets/blendermarketlogo.png" />
+                <a href="https://blendermarket.com/creators/spencer-magnusson?ref=2870" target="_blank" rel="nofollow" title="Support my paid products of Blender add-ons">
                     Support paid add-ons
                 </a>
+                <button class="caret fa-solid fa-angle-left fa-2x"></button>
             </li>
+            <div class="content">
+                <a href="https://blendermarket.com/products/nview-v3?ref=2870" target="_blank" rel="nofollow" aria-label="nView">
+                    nView
+                </a>
+                <a href="https://blendermarket.com/products/proxy-plus?ref=2870" target="_blank" rel="nofollow" aria-label="Proxy Plus">
+                    Proxy Plus
+                </a>
+                <a href="https://blendermarket.com/products/find-duplicate-meshes?ref=2870" target="_blank" rel="nofollow" aria-label="Find Duplicate Meshes">
+                    Find Duplicate Meshes
+                </a>
+                <a href="https://blendermarket.com/products/color-picker-pro?ref=2870" target="_blank" rel="nofollow" aria-label="Color Picker Pro">
+                    Color Picker Pro
+                </a>
+            </div>
             <li>
-                <a href="https://portfolio.pixelfed.social/smagnusson" target="_blank" rel="nofollow">
-                    <img src="assets/pixelfed-icon.png"></img>
+                <img src="assets/pixelfed-icon.png"></img>
+                <a href="https://portfolio.pixelfed.social/smagnusson" target="_blank" rel="nofollow" title="View my Portfolio">
                     View Portfolio
                 </a>
+                <div class="caret"></div>
             </li>
-            <li>
-                <a href="https://spencer-magnusson.beehiiv.com/" target="_blank" rel="nofollow">
-                    <img src="assets/magnusson.jpg"></img>
+            <li class="collapsible">
+                <img src="assets/magnusson.jpg"></img>
+                <a href="https://spencer-magnusson.beehiiv.com/" target="_blank" rel="nofollow" title="Read my free newsletter">
                     Read Newsletter
                 </a>
+                <div class="caret"></div>
             </li>
         </ul>
     </section>
 </body>
 
+<script>
+    function loadInteractivity() {
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+
+        for (i = 0; i < coll.length; i++) {
+            coll[i].children[2].style.visibility = "visible";
+            coll[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.display === "block") {
+                    content.style.display = "none";
+                    this.children[2].classList.replace('fa-angle-down', 'fa-angle-left');
+                } else {
+                    content.style.display = "block";
+                    this.children[2].classList.replace('fa-angle-left', 'fa-angle-down');
+                }
+            });
+        }
+    }
+</script>
 </html>
