@@ -1,0 +1,48 @@
+<head>
+    <style>
+    @import url("/base.css");
+    
+    html, body, #a {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        width: 100%;
+    }
+
+    #a {
+        display: table;
+    }
+
+    #b {
+        display: table-cell;
+        margin: 0;
+        padding: 64px;
+
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    #content {
+        width: 100%;
+        height: auto;
+        margin: auto;
+    }
+    
+    a:link,
+    a:hover,
+    a:active,
+    a:visited {
+        font-size: 5em;
+        text-decoration: none;
+        color: var(--c-primary-dark);
+    }
+    </style>
+</head>
+<body>
+    <div id="a">
+        <div id="b">
+            <img id="content" src="qr.png">
+            <a href="https://semagnum.github.io/">semagnum.github.io</a>
+        </div>
+    </div>    
+</body>
