@@ -1,0 +1,63 @@
+{
+    "short_name": "Spencer Magnusson",
+    "name": "Spencer Magnusson Links",
+    "icons": [
+        {
+            "src": "/assets/magnusson-512.jpg",
+            "type": "image/jpg",
+            "sizes": "512x512"
+        },
+        {
+            "src": "/assets/magnusson-192.jpg",
+            "type": "image/jpg",
+            "sizes": "192x192"
+        },
+        {
+            "src": "/assets/magnusson.jpg",
+            "type": "image/jpg",
+            "sizes": "1080x1080"
+        }
+    ],
+    "id": "/?source=pwa",
+    "start_url": "/?source=pwa",
+    "background_color": "#1E51AB",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#1E51AB",
+    "shortcuts": [
+        {
+            "name": "Links Page",
+            "short_name": "Links",
+            "description": "Links for Spencer Magnusson",
+            "url": "/?source=pwa",
+            "icons": [
+                {
+                    "src": "/assets/magnusson-192.jpg",
+                    "type": "image/jpg",
+                    "sizes": "192x192"
+                }
+            ]
+        },
+        {
+            "name": "QR Code",
+            "short_name": "QR",
+            "description": "Share QR code of links",
+            "url": "/qr?source=pwa",
+            "icons": [
+                {
+                    "src": "/assets/magnusson-192.jpg",
+                    "type": "image/jpg",
+                    "sizes": "192x192"
+                }
+            ]
+        }
+    ],
+    "description": "Spencer Magnusson Links page",
+    "screenshots": [
+        {
+            "src": "/assets/magnusson.jpg",
+            "type": "image/jpg",
+            "sizes": "1080x1080"
+        }
+    ]
+}
