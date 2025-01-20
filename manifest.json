@@ -18,10 +18,9 @@
             "sizes": "1080x1080"
         }
     ],
-    "id": "/?source=pwa",
-    "start_url": "/?source=pwa",
+    "start_url": "/",
     "background_color": "#1E51AB",
-    "display": "standalone",
+    "display": "fullscreen",
     "scope": "/",
     "theme_color": "#1E51AB",
     "shortcuts": [
