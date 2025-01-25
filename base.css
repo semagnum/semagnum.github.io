@@ -74,6 +74,11 @@ body > a.caret {
 
     .socials__link__icon { color: var(--c-primary-dark); }
 
+    .socials__link__icon:hover {
+        background-color: rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+    }
+
     .fa-mastodon { color: #563ACC; }
     
     .fa-instagram { color: #FF0069; }
