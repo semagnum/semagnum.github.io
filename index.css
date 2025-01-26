@@ -4,33 +4,6 @@
     padding: 0;
 }
 
-.socials {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    border: 1px solid rgba(1, 1, 1, 0.1);
-    border-radius: 25px;
-    padding: 0.5rem 1rem;
-
-    .socials__link__icon { color: var(--c-primary-dark); }
-
-    .fa-mastodon { color: #563ACC; }
-    
-    .fa-instagram { color: #FF0069; }
-    
-    .fa-youtube { color: #FF0000; }
-    
-    .fa-linkedin { color: #0a66c2; }
-    
-    .fa-paypal { color: #002991;}
-}
-
 .collapsible .caret { cursor: pointer; }
 
 .content {
