@@ -87,5 +87,13 @@ body > a.caret {
     
     .fa-linkedin { color: #0a66c2; }
     
-    .fa-paypal { color: #002991;}
+    .fa-mug-hot { color: black; }
+
+    .fa-ko-fi::after {
+        content: '\f004';
+        font-size: 15px;
+        color: #ff5a16;
+        position: absolute;
+        margin: 25px 0 0 -38px;
+    }
 }
