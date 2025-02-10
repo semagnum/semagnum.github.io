@@ -41,7 +41,7 @@
             "name": "QR Code",
             "short_name": "QR",
             "description": "Share QR code of links",
-            "url": "/qr?source=pwa",
+            "url": "/qr/?source=pwa",
             "icons": [
                 {
                     "src": "/assets/magnusson-192.jpg",
