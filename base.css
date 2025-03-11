@@ -9,8 +9,6 @@
     --c-text: #e8e6e3;
     --c-accent: #202048;
     --c-accent-hover: #404068;
-    --fa-display: inline;
-    --fa-li-width: 10px;
 }
 
 * {
@@ -72,28 +70,8 @@ body > a.caret {
     border-radius: 25px;
     padding: 0.5rem 1rem;
 
-    .socials__link__icon { color: var(--c-primary-dark); }
-
     .socials__link__icon:hover {
         background-color: rgba(0, 0, 0, 0.1);
         border-radius: 10px;
-    }
-
-    .fa-mastodon { color: #563ACC; }
-    
-    .fa-instagram { color: #FF0069; }
-    
-    .fa-youtube { color: #FF0000; }
-    
-    .fa-linkedin { color: #0a66c2; }
-    
-    .fa-mug-hot { color: black; }
-
-    .fa-ko-fi::after {
-        content: '\f004';
-        font-size: 15px;
-        color: #ff5a16;
-        position: absolute;
-        margin: 25px 0 0 -38px;
     }
 }
