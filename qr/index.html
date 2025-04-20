@@ -20,32 +20,37 @@
         width: 100%;
 
         background-color: #f1f7fe;
+
+        box-sizing: border-box;
     }
 
     #a {
-        display: table;
+        padding: 16px;
+        padding-bottom: 6em;
+
+        background-size: contain; 
+        background-position: center; 
+        background-repeat: no-repeat;
+        background-origin: content-box;
+        background-image: url('qr.png');
+
+        position: relative;
     }
 
-    #b {
-        display: table-cell;
-        margin: 0;
-        padding: 64px;
+    a {
+        font-size: 5em;
 
-        text-align: center;
-        vertical-align: middle;
-    }
-
-    #content {
+        position: absolute;
+        bottom: 16px;
         width: 100%;
-        height: auto;
-        margin: auto;
+        text-align: center;
+        left: 0;
     }
     
     a:link,
     a:hover,
     a:active,
     a:visited {
-        font-size: 5em;
         text-decoration: none;
         color: var(--c-primary-dark);
     }
@@ -53,10 +58,8 @@
 </head>
 <body>
     <div id="a">
-        <div id="b">
-            <img id="content" src="qr.png" alt="QR code for https://semagnum.github.io">
-            <a href="https://semagnum.github.io/" rel="nofollow">semagnum.github.io</a>
-        </div>
+        <!-- <img id="content" src="qr.png" alt="QR code for https://semagnum.github.io"> -->
+        <a href="https://spencermagnusson.com/" rel="nofollow">spencermagnusson.com</a>
     </div>
     <script src="/base.js"></script>
 </body>
