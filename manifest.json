@@ -49,6 +49,19 @@
                     "sizes": "192x192"
                 }
             ]
+        },
+        {
+            "name": "Crop, Resize, Share",
+            "short_name": "Crop, Resize, Share",
+            "description": "Share QR code of links",
+            "url": "/crop-resize-share/?source=pwa",
+            "icons": [
+                {
+                    "src": "/assets/magnusson-192.jpg",
+                    "type": "image/jpg",
+                    "sizes": "192x192"
+                }
+            ]
         }
     ],
     "description": "Spencer Magnusson Links page",
